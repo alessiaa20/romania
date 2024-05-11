@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> România </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('brano.png'); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            animation: fade-in 1.5s ease-out;
+        }
+
+        h1 {
+            color: #000;
+        }
+
+        #romania-map {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Harta turistică a României</h1>
+    <img id="romania-map" src="harta.jpg" alt="Romania Map" usemap="#romaniaMap">
+    <map name="romaniaMap">
+        <!-- Define map regions and link them to specific pages or actions -->
+        <area shape="poly" coords="123,200,230,280,170,370,60,330" href="#" alt="Region 1">
+        <area shape="poly" coords="290,160,400,260,350,360,240,310" href="#" alt="Region 2">
+        <!-- Add more areas as needed -->
+    </map>
+
+</body>
+</html>

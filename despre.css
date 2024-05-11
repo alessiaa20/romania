@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#000000;
+}
+
+header {
+    background-color: #644c85;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    position: relative;
+    color: #644c85;
+    padding: 40px;
+}
+
+.background-imagee {
+    background-image: url('bran.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4; 
+}
+
+.contentt {
+    z-index: 1;
+    color:#000000;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #644c85;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
